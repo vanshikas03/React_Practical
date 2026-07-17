@@ -1,0 +1,204 @@
+{
+  "category_breakdown": [
+    {
+      "attendees": 111,
+      "average_assessment_score": "66.12",
+      "category_name": "Analytics",
+      "sessions": 5,
+      "training_cost": "134000.00"
+    },
+    {
+      "attendees": 136,
+      "average_assessment_score": "87.10",
+      "category_name": "Technical",
+      "sessions": 5,
+      "training_cost": "226000.00"
+    },
+    {
+      "attendees": 106,
+      "average_assessment_score": "78.17",
+      "category_name": "Compliance",
+      "sessions": 3,
+      "training_cost": "58000.00"
+    },
+    {
+      "attendees": 83,
+      "average_assessment_score": "79.27",
+      "category_name": "Soft Skills",
+      "sessions": 3,
+      "training_cost": "51000.00"
+    },
+    {
+      "attendees": 31,
+      "average_assessment_score": "83.00",
+      "category_name": "Leadership",
+      "sessions": 2,
+      "training_cost": "72000.00"
+    },
+    {
+      "attendees": 40,
+      "average_assessment_score": "83.20",
+      "category_name": "Project Management",
+      "sessions": 2,
+      "training_cost": "64000.00"
+    }
+  ],
+  "delivery_mode_breakdown": [
+    {
+      "attendees": 261,
+      "delivery_mode": "Online",
+      "sessions": 8
+    },
+    {
+      "attendees": 132,
+      "delivery_mode": "Hybrid",
+      "sessions": 6
+    },
+    {
+      "attendees": 114,
+      "delivery_mode": "Offline",
+      "sessions": 6
+    }
+  ],
+  "monthly_trend": [
+    {
+      "attendees": 69,
+      "month_label": "2026-01",
+      "sessions": 3,
+      "training_cost": "128000.00"
+    },
+    {
+      "attendees": 72,
+      "month_label": "2026-02",
+      "sessions": 3,
+      "training_cost": "85000.00"
+    },
+    {
+      "attendees": 94,
+      "month_label": "2026-03",
+      "sessions": 3,
+      "training_cost": "71000.00"
+    },
+    {
+      "attendees": 68,
+      "month_label": "2026-04",
+      "sessions": 3,
+      "training_cost": "122000.00"
+    },
+    {
+      "attendees": 75,
+      "month_label": "2026-05",
+      "sessions": 3,
+      "training_cost": "71000.00"
+    },
+    {
+      "attendees": 66,
+      "month_label": "2026-06",
+      "sessions": 3,
+      "training_cost": "87000.00"
+    },
+    {
+      "attendees": 63,
+      "month_label": "2026-07",
+      "sessions": 2,
+      "training_cost": "41000.00"
+    }
+  ],
+  "overview": {
+    "average_assessment_score": "78.54",
+    "average_feedback_score": "4.13",
+    "total_attendees": 507,
+    "total_completions": 468,
+    "total_planned_participants": 543,
+    "total_sessions": 20,
+    "total_training_cost": "605000.00"
+  },
+  "recent_sessions": [
+    {
+      "attended_participants": 22,
+      "avg_assessment_score": "0.00",
+      "avg_feedback_score": "0.00",
+      "category_name": "Analytics",
+      "completed_participants": 0,
+      "delivery_mode": "Hybrid",
+      "department_name": "Marketing",
+      "end_date": "Thu, 16 Jul 2026 00:00:00 GMT",
+      "location_name": "Mumbai",
+      "program_name": "Data Storytelling",
+      "session_code": "TRN-2026-020",
+      "start_date": "Wed, 15 Jul 2026 00:00:00 GMT",
+      "status": "In Progress",
+      "trainer_name": "Manoj Das",
+      "training_cost": "27000.00"
+    },
+    {
+      "attended_participants": 41,
+      "avg_assessment_score": "75.90",
+      "avg_feedback_score": "4.00",
+      "category_name": "Compliance",
+      "completed_participants": 40,
+      "delivery_mode": "Online",
+      "department_name": "HR",
+      "end_date": "Wed, 08 Jul 2026 00:00:00 GMT",
+      "location_name": "Hyderabad",
+      "program_name": "HR Policy Refresher",
+      "session_code": "TRN-2026-019",
+      "start_date": "Wed, 08 Jul 2026 00:00:00 GMT",
+      "status": "Completed",
+      "trainer_name": "Lakshmi Prasad",
+      "training_cost": "14000.00"
+    },
+    {
+      "attended_participants": 19,
+      "avg_assessment_score": "82.70",
+      "avg_feedback_score": "4.30",
+      "category_name": "Project Management",
+      "completed_participants": 18,
+      "delivery_mode": "Offline",
+      "department_name": "PMO",
+      "end_date": "Fri, 19 Jun 2026 00:00:00 GMT",
+      "location_name": "Delhi",
+      "program_name": "Stakeholder Management",
+      "session_code": "TRN-2026-018",
+      "start_date": "Thu, 18 Jun 2026 00:00:00 GMT",
+      "status": "Completed",
+      "trainer_name": "Isha Malhotra",
+      "training_cost": "30000.00"
+    },
+    {
+      "attended_participants": 33,
+      "avg_assessment_score": "89.10",
+      "avg_feedback_score": "4.80",
+      "category_name": "Technical",
+      "completed_participants": 31,
+      "delivery_mode": "Online",
+      "department_name": "Innovation",
+      "end_date": "Thu, 11 Jun 2026 00:00:00 GMT",
+      "location_name": "Chennai",
+      "program_name": "Prompt Engineering Basics",
+      "session_code": "TRN-2026-017",
+      "start_date": "Thu, 11 Jun 2026 00:00:00 GMT",
+      "status": "Completed",
+      "trainer_name": "Naveen Raj",
+      "training_cost": "24000.00"
+    },
+    {
+      "attended_participants": 14,
+      "avg_assessment_score": "85.50",
+      "avg_feedback_score": "4.60",
+      "category_name": "Leadership",
+      "completed_participants": 14,
+      "delivery_mode": "Hybrid",
+      "department_name": "Operations",
+      "end_date": "Fri, 05 Jun 2026 00:00:00 GMT",
+      "location_name": "Bengaluru",
+      "program_name": "Coaching for Managers",
+      "session_code": "TRN-2026-016",
+      "start_date": "Thu, 04 Jun 2026 00:00:00 GMT",
+      "status": "Completed",
+      "trainer_name": "Pooja Arora",
+      "training_cost": "33000.00"
+    }
+  ],
+  "status": "ok"
+}
