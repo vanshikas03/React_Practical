@@ -1,5 +1,5 @@
-# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
-# More GitHub Actions for Azure: https://github.com/Azure/actions
+# Docs for the Azure Web Apps Deploy action:
+# https://github.com/Azure/webapps-deploy
 
 name: Build and deploy Node.js app to Azure Web App - studentportal-react
 
@@ -15,17 +15,14 @@ jobs:
     permissions:
       contents: read
 
-    defaults:
-      run:
-        working-directory: tranning-react-app
-
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Set up Node.js version
+      - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: "22.x"
+          node-version: '22.x'
 
       - name: Install dependencies
         run: npm install
@@ -33,11 +30,11 @@ jobs:
       - name: Build React App
         run: npm run build
 
-      - name: Upload artifact
+      - name: Upload build artifact
         uses: actions/upload-artifact@v4
         with:
           name: node-app
-          path: tranning-react-app/build
+          path: .
 
   deploy:
     runs-on: ubuntu-latest
@@ -52,7 +49,6 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: node-app
-          path: build
 
       - name: Login to Azure
         uses: azure/login@v2
@@ -62,8 +58,10 @@ jobs:
           subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_B5698A0DEA544DDBB6512E071AE473DB }}
 
       - name: Deploy to Azure Web App
+        id: deploy
         uses: azure/webapps-deploy@v3
         with:
           app-name: studentportal-react
           slot-name: Production
-          package: build
+          package: .
+          
