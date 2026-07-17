@@ -1,10 +1,8 @@
 import React from "react";
 import data from "../../data/data.json";
 
-const LandingPage = ({ name }) => {
+const LandingPage = () => {
   const [dashboardData] = React.useState(data);
-
-  console.log(dashboardData);
 
   return (
     <div>
